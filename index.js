@@ -28,3 +28,32 @@ const questions = [
           name: 'shapeColor',
       },
 ];
+
+// Function to write logo.svg file AND the output text "Generated logo.svg" is printed in the command line
+
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>
+    err ? console.error(err) : console.log('Generated logo.svg'))
+}
+
+// Function to initialize app with inquirer prompt to questions above
+
+function init() {
+    inquirer
+  .prompt(questions)
+  .then((response) => {
+    console.log(response);
+    writeToFile('logo.svg', generateLogo(response));
+  }
+  );
+}
+
+// Function to generate logo
+
+function generateLogo(data) {
+    
+}
+
+// Function call to initialize app
+
+init();
