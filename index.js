@@ -23,9 +23,9 @@ const questions = [
         choices: ['circle', 'triangle', 'square']
       },
       {
-          type: 'input',
-          message: 'What would you like the shape color to be? (color keyword OR a hexadecimal number)',
-          name: 'shapeColor',
+        type: 'input',
+        message: 'What would you like the shape color to be? (color keyword OR a hexadecimal number)',
+        name: 'shapeColor',
       },
 ];
 
