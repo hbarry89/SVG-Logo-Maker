@@ -2,12 +2,12 @@
 
 ## Description
 
-- The purpose of this repository is 
+- The purpose of this repository is for web developers to generate a simple logo for their projects.
 
 ## Usage
 
 - [Click here](*) for a video demo of this application.
-- [Click here](*) to see a sample.
+- [Click here](*) to see a sample SVG logo.
 
 ---------------------------
 
@@ -21,14 +21,17 @@
 
 ### Resources :books:
 - Bootcamp Materials
-- Challenge demonstration by TA in class.
-- Worked with tutor.
+- Develop Folder: *shapes.test.js* and *svg.test.js* files are provided by TA
+- Challenge demonstration by TA in class
+- Worked with tutor
+- [SVG Explained in 100 Seconds](https://www.youtube.com/watch?v=emFMHH2Bfvo)
 
-### Assets :gear:
-- [Inquirer Package](https://www.npmjs.com/package/inquirer/v/8.2.4)
+### Assets :sparkles:
+- [Inquirer Package](https://www.npmjs.com/package/inquirer/v/8.2.4) for collecting input from the user.
+- [Jest Package](https://www.npmjs.com/package/jest) for running the unit tests.
 
-### Applications Used :sparkles:
+### Applications Used :gear:
 - VS Code
 - Screencastify
 
-<p align="center">Thank you for visiting! :hibiscus:</p>
+<p align="center">Thank you for visiting! :ribbon:</p>
