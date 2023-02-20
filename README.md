@@ -29,9 +29,15 @@
 
 ---------------------------
 
-- Then a logo will be generated based on the answers provided.
+- Then an SVG file is created named `logo.svg` in the exmaples folder:
 
-<img src="./demo-images/demo4.png" width="300" height="200">
+<img src="./demo-images/demo4.png" width="200" height="100">
+
+---------------------------
+
+- When you open the `logo.svg` file in a browser, you are shown a 300x200 pixel image that matches the criteria you entered:
+
+<img src="./demo-images/demo5.png" width="300" height="200">
 
 ---------------------------
 
