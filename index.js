@@ -10,23 +10,23 @@ const questions = [
         type: 'input',
         message: 'What would you like to write on your logo? (up to three characters only)',
         name: 'text',
-      },
-      {
+    },
+    {
         type: 'input',
         message: 'What would you like the text color to be? (color keyword OR a hexadecimal number)',
         name: 'textColor',
-      },
-      {
+    },
+    {
         type: 'list',
         message: 'Select the shape you would like for your for your logo.',
         name: 'shape',
         choices: ['circle', 'triangle', 'square']
-      },
-      {
+    },
+    {
         type: 'input',
         message: 'What would you like the shape color to be? (color keyword OR a hexadecimal number)',
         name: 'shapeColor',
-      },
+    },
 ];
 
 // Function to write logo.svg file AND the output text "Generated logo.svg" is printed in the command line
@@ -43,7 +43,7 @@ function init() {
   .prompt(questions)
   .then((response) => {
     console.log(response);
-    writeToFile('logo.svg', generateLogo(response));
+    writeToFile('./examples/logo.svg', generateLogo(response));
   }
   );
 }
@@ -51,7 +51,10 @@ function init() {
 // Function to generate logo
 
 function generateLogo(data) {
-    
+    return data.text
+    // data.textColor
+    // data.shape
+    // data.shapeColor
 }
 
 // Function call to initialize app

@@ -11,9 +11,15 @@
 
 ---------------------------
 
-- Screenshots:
+- You will be presented with a series of questions:
 
-<img src="./demo-images/*.png" width="300" height="300">
+<img src="./demo-images/demo1.png" width="500" height="50">
+
+---------------------------
+
+- After answering the questions your answers will be captured AND the output text "Generated logo.svg" is printed in the command line:
+
+<img src="./demo-images/demo2.png" width="200" height="100">
 
 ---------------------------
 
