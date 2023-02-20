@@ -29,6 +29,12 @@
 
 ---------------------------
 
+- Then a logo will be generated based on the answers provided.
+
+<img src="./demo-images/demo4.png" width="300" height="200">
+
+---------------------------
+
 ## Credit
 
 ### Resources :books:
