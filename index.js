@@ -1,7 +1,9 @@
 // Packages needed for this application
 
-const inquirer = require('inquirer');
-const fs = require('fs');
+const inquirer = require('inquirer'); // Third-party Package (Inquirer)
+const fs = require('fs'); // Built-in Package (File System)
+const Shapes = require('./lib/shapes.js'); // Custom Package/File from lib folder
+const SVG = require('./lib/SVG.js'); // Custom Package/File from lib folder
 
 // An array of questions for user input
 
