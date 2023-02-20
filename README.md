@@ -13,13 +13,19 @@
 
 - You will be presented with a series of questions:
 
-<img src="./demo-images/demo1.png" width="500" height="50">
+<img src="./demo-images/demo1.png" width="600" height="60">
 
 ---------------------------
 
-- After answering the questions your answers will be captured AND the output text "Generated logo.svg" is printed in the command line:
+- With a list of the shapes:
 
-<img src="./demo-images/demo2.png" width="200" height="100">
+<img src="./demo-images/demo2.png" width="600" height="80">
+
+---------------------------
+
+- After answering the questions, your answers will be captured AND the output text "Generated logo.svg" is printed in the command line:
+
+<img src="./demo-images/demo3.png" width="200" height="100">
 
 ---------------------------
 
