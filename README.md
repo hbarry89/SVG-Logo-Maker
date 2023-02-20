@@ -21,7 +21,7 @@
 
 ### Resources :books:
 - Bootcamp Materials
-- Develop Folder: *shapes.test.js* and *svg.test.js* files are provided by TA
+- Test files: *shapes.test.js* and *svg.test.js* were provided by TA
 - Challenge demonstration by TA in class
 - Worked with tutor
 - [SVG Explained in 100 Seconds](https://www.youtube.com/watch?v=emFMHH2Bfvo)
