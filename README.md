@@ -53,10 +53,10 @@
 ### Assets :sparkles:
 - [Inquirer Package](https://www.npmjs.com/package/inquirer/v/8.2.4) for collecting input from the user.
 - [Jest Package](https://www.npmjs.com/package/jest) for running the unit tests.
+- [SVG VS Code extension](https://marketplace.visualstudio.com/items?itemName=jock.svg)
 
 ### Applications Used :gear:
 - VS Code
-- [SVG VS Code extension](https://marketplace.visualstudio.com/items?itemName=jock.svg)
 - Screencastify
 
 <p align="center">Thank you for visiting! :ribbon:</p>
