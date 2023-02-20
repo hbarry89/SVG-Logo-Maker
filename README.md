@@ -50,6 +50,7 @@
 
 ### Applications Used :gear:
 - VS Code
+- [SVG VS Code extension](https://marketplace.visualstudio.com/items?itemName=jock.svg)
 - Screencastify
 
 <p align="center">Thank you for visiting! :ribbon:</p>
