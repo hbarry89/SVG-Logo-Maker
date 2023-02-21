@@ -53,10 +53,12 @@ function init() {
 // Function to generate logo
 
 function generateLogo(data) {
-    return data.text
-    // data.textColor
-    // data.shape
-    // data.shapeColor
+// if statement for selections
+
+// data.text
+// data.textColor
+// data.shape
+// data.shapeColor
 }
 
 // Function call to initialize app
