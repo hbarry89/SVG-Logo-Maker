@@ -3,7 +3,7 @@
 const inquirer = require('inquirer'); // Third-party Package (Inquirer)
 const fs = require('fs'); // Built-in Package (File System)
 const { Square, Triangle, Circle } = require('./lib/shapes.js'); // Custom Package/File from lib folder
-const { SVG } = require('./lib/SVG.js'); // Custom Package/File from lib folder
+const SVG = require('./lib/SVG.js'); // Custom Package/File from lib folder
 
 // An array of questions for user input
 
@@ -57,7 +57,7 @@ function init() {
 
 function generateLogo(data) {
     let shape; 
-    // if statement for selections
+    // if statement for shape selections
     if (data.shape === "circle") {
         shape = new Circle()
     } else if (data.shape === "triangle") {
@@ -66,12 +66,12 @@ function generateLogo(data) {
         shape = new Square()
     }
 
-    shape.setColor(data.shapeColor)
-    const svg = new SVG() 
-    svg.setText(data.text, data.textColor)
-    svg.setShape(shape)
+    shape.setColor(data.shapeColor) // Setting shape color
+    const svg = new SVG() // Creates new instance from SVG object in the SVG file
+    svg.setText(data.text, data.textColor) // Setting text with two arguments: the text itself and color of the text
+    svg.setShape(shape) // Setting the shape from the if statement
     console.log(svg.render());
-    return svg.render()
+    return svg.render() // Shows the whole lnik with template literal in the logo.svg (Creates the logo)
 }
 
 // Function call to initialize app
