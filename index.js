@@ -44,9 +44,9 @@ function init() {
     inquirer
   .prompt(questions)
   .then((response) => {
-    if (response.text.length > 3) {
-        throw new Error("Text should be up to three characters")
-    }
+    // if (response.text.length > 3) {
+    //     throw new Error("Text should be up to three characters")
+    // }
     console.log(response);
     writeToFile('./examples/logo.svg', generateLogo(response));
   }
