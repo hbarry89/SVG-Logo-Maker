@@ -70,7 +70,7 @@ function generateLogo(data) {
     const svg = new SVG() // Creates new instance from SVG object in the SVG file
     svg.setText(data.text, data.textColor) // Setting text with two arguments: the text itself and color of the text
     svg.setShape(shape) // Setting the shape from the if statement
-    console.log(svg.render());
+    //console.log(svg.render());
     return svg.render() // Shows the whole lnik with template literal in the logo.svg (Creates the logo)
 }
 
