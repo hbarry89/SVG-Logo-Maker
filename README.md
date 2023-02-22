@@ -6,7 +6,7 @@
 
 ## Usage
 
-- [Click here](*) for a video demo of this application.
+- [Click here](https://drive.google.com/file/d/1263XjWxdw2ZBfk8gjy9MYvbgSy8mnRPL/view) for a video demo of this application.
 - [Click here](https://github.com/hbarry89/SVG-Logo-Maker/blob/main/examples/logo.svg) to see a sample SVG logo.
 
 ---------------------------
