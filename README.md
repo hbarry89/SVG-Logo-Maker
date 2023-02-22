@@ -49,6 +49,7 @@
 - Challenge demonstration by TA in class
 - *shapes.test.js* and *shapes.js* file demonstration by instructor in class
 - Worked with tutor
+- Worked with AskBCS Learning Assistant
 - [SVG Explained in 100 Seconds](https://www.youtube.com/watch?v=emFMHH2Bfvo)
 
 ### Assets :sparkles:
