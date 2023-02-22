@@ -13,13 +13,13 @@
 
 - You will be presented with a series of questions, after answering the questions, your answers will be captured AND the output text "Generated logo.svg" is printed in the command line:
 
-<img src="./demo-images/demo1.png" width="600" height="100">
+<img src="./demo-images/demo1.png" width="600" height="150">
 
 ---------------------------
 
 - Then an SVG file is created named `logo.svg` in the exmaples folder:
 
-<img src="./demo-images/demo2.png" width="400" height="100">
+<img src="./demo-images/demo2.png" width="350" height="100">
 
 ---------------------------
 
@@ -37,7 +37,7 @@
 
 2. You can choose colors by either entering color keyword OR a hexadecimal number:
 
-<img src="./demo-images/demo1.png" width="600" height="100">
+<img src="./demo-images/demo1.png" width="600" height="150">
 
 3. All tests are passing:
 
