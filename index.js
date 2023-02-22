@@ -2,8 +2,8 @@
 
 const inquirer = require('inquirer'); // Third-party Package (Inquirer)
 const fs = require('fs'); // Built-in Package (File System)
-const Shapes = require('./lib/shapes.js'); // Custom Package/File from lib folder
-const SVG = require('./lib/SVG.js'); // Custom Package/File from lib folder
+const { Square, Triangle, Circle } = require('./lib/shapes.js'); // Custom Package/File from lib folder
+const { SVG } = require('./lib/SVG.js'); // Custom Package/File from lib folder
 
 // An array of questions for user input
 
@@ -44,6 +44,9 @@ function init() {
     inquirer
   .prompt(questions)
   .then((response) => {
+    if (response.text.length > 3) {
+        throw new Error("Text should be up to three characters")
+    }
     console.log(response);
     writeToFile('./examples/logo.svg', generateLogo(response));
   }
@@ -53,12 +56,22 @@ function init() {
 // Function to generate logo
 
 function generateLogo(data) {
-// if statement for selections
+    let shape; 
+    // if statement for selections
+    if (data.shape === "circle") {
+        shape = new Circle()
+    } else if (data.shape === "triangle") {
+        shape = new Triangle()
+    } else {
+        shape = new Square()
+    }
 
-// data.text
-// data.textColor
-// data.shape
-// data.shapeColor
+    shape.setColor(data.shapeColor)
+    const svg = new SVG() 
+    svg.setText(data.text, data.textColor)
+    svg.setShape(shape)
+    console.log(svg.render());
+    return svg.render()
 }
 
 // Function call to initialize app
