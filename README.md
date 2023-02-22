@@ -33,9 +33,9 @@
 
 1. You will be presented with a list for the shapes:
 
-<img src="./demo-images/demo4.png" width="300" height="200">
+<img src="./demo-images/demo4.png" width="600" height="150">
 
-2. You can choose colors by either entering color keyword OR a hexadecimal number:
+2. You can choose colors by either entering color keyword or a hexadecimal number:
 
 <img src="./demo-images/demo1.png" width="600" height="150">
 
